@@ -102,17 +102,19 @@ img{
 span{
      font-size: 3em;
      height: 15%;
-     min-width: 250px;
+     padding: calc(3px + 1.5625vw);
 }
 
 
 .social{
+     margin: .15em;
      display: flex;
      flex-direction: row;
      align-items: center;
      justify-content: space-between;
      padding: calc(3px + 1.5625vw);
      border: solid 2px green;
+     width: 60vw;
 }
 
 .social a {
