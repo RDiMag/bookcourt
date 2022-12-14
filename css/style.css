@@ -22,10 +22,10 @@
 /*******************************************/
 
 body {
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: 'Gentium Plus', serif;
+     font-family: 'Nanum Gothic', sans-serif;
      border: solid 2px purple;
 }
-
 
 /******************************************
 /* LAYOUT
@@ -33,8 +33,8 @@ body {
 
 h1{
      font-size: 2.4em;     
-     border: solid 1px red;
-
+     border: solid 1px blue;
+     font-family: 'Namum Gothic';
 }
 
 a {
