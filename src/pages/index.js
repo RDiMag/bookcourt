@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <>
     <nav>
-      <h1>Book Court Book Club</h1>
+      <h1 className="header">Book Court Book Club</h1>
       <div className="link">
         <Link to="/about/" className="nav">About Us</Link>
       </div>

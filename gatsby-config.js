@@ -13,8 +13,8 @@ module.exports = {
         preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
         web: [
           {
-            name: 'Gentium Plus',
-            file: 'https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Nanum+Gothic&display=swap',
+            name: 'Nanum Gothic, Arima Madurai', 
+            file: 'https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Nanum+Gothic&display=swap',
           }
         ]
       }
