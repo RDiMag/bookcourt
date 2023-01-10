@@ -108,7 +108,7 @@ span{
      display: flex;
      flex-direction: row;
      align-items: center;
-     justify-content: space-between;
+     justify-content: space-around;
      padding: calc(3px + 1.5625vw);
      width: 60vw;
 }
@@ -154,9 +154,9 @@ span{
     
 
 section.main > p{
-     font-size: 1.5em;
+     font-size: 1.25em;
      align-self: center;
-     padding: 0 calc(10px + 1.5625vw);
+     padding: 0 calc(2.5em + 1.5625vw);
      margin-top: 0;
 }
 
@@ -224,22 +224,23 @@ input, select, textarea, label {
 /* About Page */
 /**********************************/
 
-div{
-     align-items: center;
+#aboutpage{
+     text-align: center;
 }
 
 .container{   
-     display: grid;
+     display: flex;
      gap: 4em;
-     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     flex-direction: column;
      padding: calc(8px + 1.5625vw);
+     max-width: 60vw;
 }
 
 span.about{
      display: flex;
      flex-direction: column;
      align-items: center;
-     font-size: 2em;
+     font-size: 1.4em;
      font-family: 'Calibri Light';
      border-radius: 4px;
      background-color: aliceblue;
@@ -254,10 +255,12 @@ span.about{
      display: flex;
      flex-direction: column;
      justify-content: space-around;
+     align-items: center;
 }
 
 p.bio{
      background-color: aliceblue;
+     font-size: 1em;
 }
 
 img.portrait{
