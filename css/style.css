@@ -1,6 +1,8 @@
 /* Box Model Hack */
 * {
      box-sizing: border-box;
+     margin: 0;
+     padding: 0;
 }
 
 /* Clear fix hack */
@@ -23,6 +25,10 @@
 
 body {
      font-family: 'Nanum Gothic', sans-serif;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     border: solid 2px blue;
 }
 
 /******************************************
@@ -77,7 +83,7 @@ nav{
      display: flex;
      flex-direction: row;
      align-items: center;
-    
+     border: purple 2px solid;
 }
 
 .hero-img{
@@ -89,7 +95,6 @@ nav{
 .hero-div{
      padding: 1em;
      margin: 2em;
-     
 }
 
 .hero-div-item1{
@@ -287,6 +292,7 @@ footer {
      font-family: Helvetica;
      text-align: center;
      padding-top: 2em;
+     margin-top: auto;
 }
 
 /******************************************
