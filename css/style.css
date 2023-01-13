@@ -28,8 +28,29 @@ body {
      min-height: 100vh;
      display: flex;
      flex-direction: column;
-     border: solid 2px blue;
+     margin: 0px;
 }
+
+
+/******************************************
+/* GATSBY
+/*******************************************/
+
+#___gatsby {
+     border: black 2px solid;
+     min-height: 100vh;
+     width: 100%;
+} 
+
+#gatsby-focus-wrapper{
+     border: orangered 2px solid;
+     min-height: 100vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -104,14 +125,15 @@ nav{
 
 .hero-div-item2{
      width: 60%;
+     padding: 2em;
+     font-size: 1.25em;
 }
 
-.main{
-     display: flex;
-     flex-direction: column;
-     gap: 1em;
-     align-items: center;
-}
+
+/******************************************
+/* Social Buttons
+/*******************************************/
+
 
 span{
      font-size: 3em;
@@ -291,7 +313,6 @@ img.portrait{
 footer {
      font-family: Helvetica;
      text-align: center;
-     padding-top: 2em;
      margin-top: auto;
 }
 
@@ -304,7 +325,7 @@ footer {
           flex-direction: column;
      }
      p{
-          padding: 0 1em;
+          padding: 0;
      }
      span.about {
           flex-direction: column;
