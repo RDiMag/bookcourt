@@ -1,23 +1,15 @@
 import * as React from "react"
-import { Link } from 'gatsby'
 import '/css/style.css'
 import brooke from '../images/brooke.jpg'
 import elena from '../images/elena.jpg'
 import jamie from '../images/jamie.jpg'
+import Navbar from "./navbar"
 
 const AboutPage = () => {
   return (
     <>
-     <nav>
-      <div className="link" id="item-1">
-        <Link to="/" className="nav">Reviews</Link>
-      </div>
-      <div className="link" id="item-3">
-        <Link to="/" className="nav">Home</Link>
-      </div>
-    </nav>
-
-      
+     <Navbar />
+           
     <section className="bio">
       <div className="container">
 
