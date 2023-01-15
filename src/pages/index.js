@@ -21,8 +21,9 @@ const IndexPage = () => {
           </p>
       </div>
       
+
     </section>
-    
+
     <footer>
         <small>&copy; Rachel DiMaggio 2022</small>
     </footer>
