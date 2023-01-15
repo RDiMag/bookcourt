@@ -1,30 +1,39 @@
 import * as React from "react"
 import '/css/style.css'
 import Navbar from "./navbar"
-import brooke from '../images/brooke.jpg'
-import elena from '../images/elena.jpg'
-import jamie from '../images/jamie.jpg'
+import { Link } from 'gatsby'
+import brooke from '../images/brooke.png'
+import elena from '../images/elena.png'
+import jamie from '../images/jamie.png'
 
 const AboutPage = () => {
   return (
     <>
      <Navbar />
-      <span className="about-header">Meet the Reviewers!</span>
+      
+        <span className="about-header">Meet the Reviewers!</span>
 
       <section className="about-container">
 
           <div className="about">
-            <img src={brooke} className="portrait" alt="Brooke smiles into the camera."/>
-            <p>Brooke</p>
+            <Link to="/brooke/">
+              <img src={brooke} className="portrait" alt="Brooke smiles into the camera."/>
+            </Link> 
+           <p>Brooke</p>  
+            
           </div>
 
           <div className="about">
-            <img src={elena} className="portrait" alt="Elena smiles into the camera."/>
+            <Link to="/elena/">
+             <img src={elena} className="portrait" alt="Elena smiles into the camera."/>
+            </Link>
             <p>Elena</p>
           </div>
 
           <div className="about">
-            <img src={jamie} className="portrait" alt="Jamie smiles into the camera."/>
+            <Link to="/jamie/">
+              <img src={jamie} className="portrait" alt="Jamie smiles into the camera."/>
+            </Link>
             <p>Jamie</p>
           </div>
         
