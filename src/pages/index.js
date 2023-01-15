@@ -1,20 +1,12 @@
 import * as React from "react"
-import { Link } from 'gatsby'
 import '/css/style.css'
 import logo from '../images/bookcourtlogo.png'
+import Navbar from "./navbar"
 
 const IndexPage = () => {
   return (
     <>
-      <nav className="header">
-        <div className="link" id="item-1">
-          <Link to="/" className="nav">Reviews</Link>
-        </div>
-        <div className="link" id="item-2">
-          <Link to="/about/" className="nav">About Us</Link>
-        </div>
-      </nav>
-
+    <Navbar />
     <section className="hero">
       <div className="hero-div-item1">
         <img src={logo} className="hero-img" alt="bookcourt book club logo"></img>
@@ -29,8 +21,9 @@ const IndexPage = () => {
           </p>
       </div>
       
+
     </section>
-    
+
     <footer>
         <small>&copy; Rachel DiMaggio 2022</small>
     </footer>
