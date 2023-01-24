@@ -3,7 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: 'Book Court Book Club',
+    description: 'The digital home of the Book Court Book Club podcast.'
   },
   plugins: [
     {

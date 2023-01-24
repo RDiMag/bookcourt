@@ -11,6 +11,10 @@ const ReviewPage = () => {
       <p>Review Page To Come</p>
      </container>
 
+     <footer>
+        <small>&copy; Rachel DiMaggio 2022</small>
+      </footer>
+      
      </>
    
    )
