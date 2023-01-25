@@ -19,6 +19,7 @@
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-image": "^3.4.0",
     "gatsby-source-contentful": "^8.4.1",
+    "gatsby-transformer-remark": "^6.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
