@@ -31,7 +31,7 @@ const BlogPost = props => {
       <container className="blog-post-container">
         {/* <Link to="/reviews/">Visit the Blog Page</Link> */}
       <div className="blog-content">
-        <h1>{props.data.contentfulBlogPost.title}</h1>
+        <h1 className="post-title">{props.data.contentfulBlogPost.title}</h1>
         <span className="meta">
           Posted on {props.data.contentfulBlogPost.publishedDate}
         </span>
@@ -39,6 +39,10 @@ const BlogPost = props => {
       </div>
       </container>
       
+      <footer>
+        <small>&copy; Rachel DiMaggio 2022</small>
+      </footer>
+
     </>
   )
 }
