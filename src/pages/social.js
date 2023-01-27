@@ -1,12 +1,11 @@
 import * as React from "react"
-import { Link } from 'gatsby'
 import '/css/style.css'
 import { FaInstagramSquare, FaYoutube, FaDiscord } from 'react-icons/fa'
 
-const SocialPage = () => {
+const SocialSideNav = () => {
   return (
     <>
-      <section className="main">
+      <section className="social-nav">
       <span className="social">
         <a href="https://www.instagram.com/highladiesofthebookcourt/">
           <FaInstagramSquare />
@@ -14,7 +13,7 @@ const SocialPage = () => {
         <a href="https://www.youtube.com/@highladiesofthebookcourt6419/">
           <FaYoutube />
         </a>
-        <a href="https://www.instagram.com/highladiesofthebookcourt/">
+        <a href="https://discord.gg/9D3HU9euf5">
           <FaDiscord />
         </a>
       </span>
@@ -25,6 +24,6 @@ const SocialPage = () => {
 }
 
 
-export default SocialPage
+export default SocialSideNav
 
-export const Head = () => <title>Social Page</title>
+export const Head = () => <title>Social Links</title>

@@ -12,6 +12,7 @@ const AboutPage = () => {
      <Navbar />
       
         <span className="about-header">Meet the Reviewers!</span>
+        <hr className="horizontal-rule" />
 
       <section className="about-container">
 
