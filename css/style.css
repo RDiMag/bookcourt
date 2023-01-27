@@ -501,6 +501,15 @@ li.post{
      line-height: 1.25em;
 }
 
+.inner-blog-para{
+     margin-bottom: 1em;
+}
+
+.inner-blog-para > a {
+     color: blue;
+     text-decoration: underline;
+}
+
 .meta{
      font-size: .875em;
      text-align: end;

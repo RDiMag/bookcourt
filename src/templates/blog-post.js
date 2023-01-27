@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "../pages/navbar"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import { BLOCKS, MARKS } from "@contentful/rich-text-types"
 import {renderRichText} from "gatsby-source-contentful/rich-text"
 
@@ -9,7 +9,7 @@ const options = {
     [MARKS.BOLD]: text => <strong>{text}</strong>
   },
   renderNode: {
-    [BLOCKS.PARAGRAPH]: (node, children) => <p>{children}</p>
+    [BLOCKS.PARAGRAPH]: (node, children) => <p className="inner-blog-para">{children}</p>
   },
 }
 
