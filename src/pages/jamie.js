@@ -1,7 +1,7 @@
 import * as React from "react"
 import '/css/style.css'
 import Navbar from "./navbar"
-import jamie from '../images/jamie.jpg'
+import jamie from '../images/jamie.png'
 
 const Jamie = () => {
   return (
